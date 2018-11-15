@@ -16,9 +16,16 @@ Name drawing utility for Christmas gift exchanges.
 | 5  | Arthur Harvey    | arthur94@example.com      | 1         | 
 | 6  | Robert Barnes    | robert84@example.com      | 3         | 
   
+  3. Create a INI file named `config.ini` in the `name-drawing-utility` directory and, assuming you have a Gmail account, make sure it looks like this:
+
+```
+[EMAIL]
+USER = username
+PWD = password
+```
   
-  3. Run `client.py`. 
-  4. Give gifts, receive gifts.
+  4. Run `client.py`. 
+  5. Give gifts, receive gifts.
 
 ## Requirements
   * Python 3.x
