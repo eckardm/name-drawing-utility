@@ -93,5 +93,5 @@ for giver_id in giver_id_to_receiver_id:
     print('\n')
     
     email_subject = 'Name Drawing Utility: Your Receiver'
-    email_body = 'Merry Christmas! ' + giver_name + ', you are giving a gift this year to ' + receiver_name + '. If you\'re interested in the source code that generated this email, see: ' + https://github.com/eckardm/name-drawing-utility
+    email_body = 'Merry Christmas! ' + giver_name + ', you are giving a gift this year to ' + receiver_name + ". If you're interested in the source code that generated this email, see: https://github.com/eckardm/name-drawing-utility"
     send_email(config['EMAIL']['USER'], config['EMAIL']['PWD'], giver_email, email_subject, email_body)
